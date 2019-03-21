@@ -1,8 +1,6 @@
 Mojo-Webqq v2.2.6 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Webqq.svg?branch=master)](https://travis-ci.org/sjdy521/Mojo-Webqq) [![Join the chat at https://gitter.im/sjdy521/Mojo-Webqq](https://badges.gitter.im/sjdy521/Mojo-Webqq.svg)](https://gitter.im/sjdy521/Mojo-Webqq?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![API列表](https://img.shields.io/badge/doc-API%E5%88%97%E8%A1%A8-brightgreen.svg)](API.md) [![QQ群-498880156](https://img.shields.io/badge/QQ%E7%BE%A4-498880156-blue.svg)](http://jq.qq.com/?_wv=1027&k=kjVJzo) [![IRC](https://img.shields.io/badge/IRC-%E5%AE%98%E6%96%B9%E9%A2%91%E9%81%93-yellow.svg)](http://irc.perfi.wang/?channel=#Mojo-Webqq)
 ========================
 
-### !!!重要通知：WebQQ将在2019年1月1日停止服务，项目目前已停止维护，感谢大家四年来一路陪伴
-
 使用Perl语言编写的Smartqq客户端框架，基于Mojolicious，要求Perl版本5.10+，可通过插件提供基于HTTP协议的api接口供其他语言或系统调用
 
 ### 郑重声明
@@ -119,7 +117,7 @@ Mojo-Webqq v2.2.6 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Webqq.svg?
     |Mac     |1. **系统自带**<br>2. ActivePerl|[ActivePerl下载地址](http://www.activestate.com/activeperl/downloads)|
   
     注意：
-      
+    
     [Mojo-StrawberryPerl](https://github.com/sjdy521/Mojo-StrawberryPerl)是基于StrawberryPerl精简打包而成，适用于windows 32位/64位系统
     
 2. *安装cpanm包管理工具*（如果系统已经安装了cpanm可以忽略此步骤）
@@ -165,7 +163,7 @@ Mojo-Webqq v2.2.6 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Webqq.svg?
     RedHat/Centos:
 
         $ yum install -y openssl-devel
-        
+    
     Ubuntu:
 
         $ sudo apt-get install libssl-dev
@@ -270,12 +268,6 @@ Mojo-Webqq v2.2.6 [![Build Status](https://travis-ci.org/sjdy521/Mojo-Webqq.svg?
 
 *Java*
 * [smartqq](https://github.com/ScienJus/smartqq) SmartQQ（WebQQ）的Api ，你可以用它实现自己的QQ 机器人
-
-### 赞助奖励
-
-可以通过扫描支付宝付款二维码进行赞助，感谢您的支持和鼓励
-
-![donate](screenshot/donate.jpg)
 
 特别致谢 [那些曾经赞助的小伙伴们](https://github.com/sjdy521/Mojo-Thanks)
 
